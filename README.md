@@ -79,3 +79,13 @@ This led to error being accumulated over multiple generations leading to deep dr
 
 https://github.com/apoorvdankar/product-video-generation/assets/57814501/2d7c1806-c0a6-4d65-a210-8ae08d5efc69
 
+
+## Usage
+
+Running the ```run.py``` with suitable arguments will run the code.
+
+For example:
+
+```bash
+python run.py --image "./input/example5.jpg" --text_prompt "tent in a mountain" --image_output "./output/gen_image4.jpg" --video_output "./output/gen_video4.mp4" --device "mps"
+```
